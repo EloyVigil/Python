@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    text-align: center;
+}
+
+#buttons{
+    margin-top: 140px;
+    width: 20%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto; 
+}
+
+#more{
+    padding: 10px;
+    color: whitesmoke;
+    background-color:dodgerblue;
+    border: 2px solid black;
+    
+}
+
+#reset{
+    padding: 10px;
+    color: whitesmoke;
+    background-color: rgb(161, 68, 68);
+    border: 2px solid black;
+}
