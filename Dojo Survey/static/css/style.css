@@ -1,0 +1,23 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+#surveybox{
+    width: 33%;
+    height: 75vh;
+    background-color: rgb(51,57,62);
+    margin: 0 auto;
+    padding: 25px;
+    margin-top: 40px;
+}
+
+.h1{
+    text-align: center;
+    color: rgb(252,190,11);
+}
+
+.form-label{
+    color: whitesmoke;
+}
+
