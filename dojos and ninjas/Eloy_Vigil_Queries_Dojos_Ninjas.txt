@@ -1,0 +1,43 @@
+Query #1
+INSERT INTO dojos (name, created_at, updated_at) 
+VALUES ("Tenri", NOW(), NOW());
+INSERT INTO dojos (name, created_at, updated_at) 
+VALUES ("Shorinji Kenpo Hombo", NOW(), NOW()),("Kashima Jinja", NOW(), NOW());
+
+Query #2
+DELETE FROM dojos
+WHERE id = 1;
+DELETE FROM dojos
+WHERE id = 2;
+DELETE FROM dojos
+WHERE id = 3;
+or
+DELETE FROM dojos         /will delete everything in table/
+  
+Query #3
+INSERT INTO dojos (name, created_at, updated_at) 
+VALUES ("Shorinji Kenpo Hombo", NOW(), NOW()),("Kashima Jinji", NOW(), NOW()),("Tenri", NOW(), NOW());
+
+Query #4
+INSERT INTO ninjas (first_name, last_name, age, dojo_id, created_at, updated_at)
+VALUES ("Fujibayashi", "Nagato", 36, 4, NOW(), NOW()),("Momochi", "Sandayu", 32, 4, NOW(), NOW()),("Hattori", "Hanzo", 30, 4, NOW(), NOW()),("Mochizuki", "Chiyome", 40, 4, NOW(), NOW());
+
+Query #5
+INSERT INTO ninjas (first_name, last_name, age, dojo_id, created_at, updated_at)
+VALUES ("Rock", "Lee", 16, 5, NOW(), NOW()),("Sasuke","Uchiha", 16, 5, NOW(), NOW()),("Kenpachi", "Zaraki", 35, 5, NOW(), NOW());
+
+Query #6
+INSERT INTO ninjas (first_name, last_name, age, dojo_id, created_at, updated_at)
+VALUES ("Renji", "Abarai", 36, 6, NOW(), NOW()),("Naruto","Uzamaki", 16, 6, NOW(), NOW()),("Ichigo", "Kurosaki", 18, 6, NOW(), NOW());
+
+Query #7
+SELECT * FROM ninjas
+WHERE dojo_id = 4;
+
+Query #8
+SELECT * FROM ninjas
+WHERE dojo_id = 6;
+
+Query #9
+SELECT dojo_id FROM ninjas
+WHERE id = 7;
