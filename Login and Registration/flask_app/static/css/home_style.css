@@ -1,0 +1,26 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+#body{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#reg_box{
+    height: 85vh;
+    width: 31%;
+    padding: 25px;
+    color: rgb(6,122,254);
+    background-color: rgb(51,57,62);
+}
+
+#login_box{
+    height: 85vh;
+    width: 31%;
+    padding: 25px;
+    color: rgb(40,165,67);
+    background-color: rgb(51,57,62);    
+}
