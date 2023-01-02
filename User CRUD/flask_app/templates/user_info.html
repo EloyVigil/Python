@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>User Info</title>
+</head>
+<body>
+    <h1>Top level User</h1>
+    <div>
+        
+        <h2>Full Name: {{ users.first_name }} {{ users.last_name }}</h2>
+        <br>
+        <h2>Occupation: {{ users.occupation }}</h2>
+        <br>
+        <h2>Email: {{ users.email }}</h2>
+        <a href="/user">Home</a>
+    </div>
+</body>
+</html>
