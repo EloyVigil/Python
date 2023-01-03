@@ -1,0 +1,31 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+#header{
+    width: 89%;
+    height: 175px;
+    margin: 0 auto;
+    padding-top: 40px;
+    display: flex;
+    justify-content:space-between;
+}
+
+#main{
+    height: 600px;
+    width: 90%;
+    display: flex;
+    justify-content:space-around ;
+    align-items: center;
+}
+
+#left_box{
+    height: 90%;
+    width: 50%;
+}
+
+#right_box{
+    height: 70%;
+    width: 25%;
+}
